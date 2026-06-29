@@ -1,0 +1,37 @@
+# ---- Copyrighted book content: NEVER commit ----
+# full extracted text of the books
+book_text/
+*.pdf
+*.epub
+*.mobi
+*.fb2
+# the bank holds verbatim quotes; ship lessons.sample.json instead
+lessons.json
+
+# ---- Secrets & local config ----
+# real recipient/sender; ship config.example.json instead
+config.json
+.product_lesson_secret
+*.secret
+
+# ---- Runtime state & logs ----
+state.json
+send.log
+build_run.log
+build_result.txt
+launchd_*.out
+launchd_*.err
+scratch_preview.html
+preview.html
+
+# ---- Env / tooling ----
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# ---- Nested / unrelated projects (own repos or not for this one) ----
+kindle-digest/
+
+# ---- Belongs in your GitHub profile repo, not this one ----
+PROFILE_README_DRAFT.md

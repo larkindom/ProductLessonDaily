@@ -1,0 +1,15 @@
+[
+  {
+    "id": "example-lesson-id",
+    "book": "Book Title",
+    "author": "Author Name",
+    "title": "Short, punchy lesson title",
+    "summary": "2-4 sentences, in your own words: the impactful, actionable takeaway. This is original writing, not copied from the book.",
+    "takeaway": "One imperative sentence the reader can act on today.",
+    "quotes": [
+      {"text": "A short verbatim quote (1-3 sentences) copied exactly from the book.", "chapter": "Chapter or section name"},
+      {"text": "A second short supporting quote.", "chapter": "Chapter or section name"}
+    ],
+    "tags": ["theme1", "theme2"]
+  }
+]
