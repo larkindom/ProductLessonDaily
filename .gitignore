@@ -35,3 +35,8 @@ kindle-digest/
 
 # ---- Belongs in your GitHub profile repo, not this one ----
 PROFILE_README_DRAFT.md
+lessons.bak
+
+# all runtime logs
+*.log
+*.bak

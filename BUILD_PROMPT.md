@@ -1,4 +1,4 @@
-You are building the lesson bank for a "Daily Product Lesson" email tool. Work entirely inside `/Users/larkindomench/Desktop/Larkin/daily-product-lesson`. Do NOT send any email. Your only job is to populate `lessons.json`.
+You are building the lesson bank for a "Daily Product Lesson" email tool. Work entirely inside `/Users/larkindomench/daily-product-lesson`. Do NOT send any email. Your only job is to populate `lessons.json`.
 
 ## Goal
 Produce about **10 lessons per book** for all 17 books listed in `books.json` — roughly **170 lessons total** — appended into `lessons.json` as one JSON array. Keep the lessons already in `lessons.json`.
