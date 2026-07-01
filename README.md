@@ -11,7 +11,7 @@ making explicit build-vs-quality tradeoffs, and shipping a working system.*
 ---
 
 ## The problem
-I own ~17 great product/strategy books. I read them once and the ideas faded. I
+I own several great product/strategy books. I read them once and the ideas faded. I
 didn't want another app to check or a course to finish — I wanted the good parts
 to **come to me**, in small daily doses, with enough of the original text to
 actually land. Spaced, passive, zero-effort review.
