@@ -1,5 +1,8 @@
 # Daily Product Lesson
 
+[![Tests](https://github.com/larkindom/ProductLessonDaily/actions/workflows/tests.yml/badge.svg)](https://github.com/larkindom/ProductLessonDaily/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/github/license/larkindom/ProductLessonDaily)](LICENSE)
+
 > A small automation that emails me one product-management lesson every morning —
 > a written takeaway plus a few verbatim key quotes — drawn at random from my
 > shelf of product books. Built to turn books I'd already read (but rarely
@@ -86,3 +89,12 @@ Email auth uses a Gmail **app password** read from `$GMAIL_APP_PASSWORD` or
 ## Tech
 Python · PyMuPDF / EbookLib / mobi (multi-format extraction) · Gmail SMTP (SSL) ·
 macOS `launchd` scheduling.
+
+## Testing
+`validate_lessons.py` and `find_passage.py` have a pytest suite covering the
+verbatim-quote gate (valid lesson, paraphrase, missing fields, duplicate id,
+unknown book, too many quotes) and passage lookup. CI runs it on every push.
+```bash
+pip install -r requirements-dev.txt
+pytest -v
+```
